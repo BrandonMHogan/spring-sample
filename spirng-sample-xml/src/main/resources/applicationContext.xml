@@ -5,10 +5,10 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean name="customerRepository"
-          class="repository.HibernateCustomerRepositoryImpl"/>
+          class="com.brandonhogan.repository.HibernateCustomerRepositoryImpl"/>
 
     <bean name="customerService"
-          class="service.CustomerServiceImpl">
+          class="com.brandonhogan.service.CustomerServiceImpl">
         <property name="customerRepository" ref="customerRepository"/>
     </bean>
 

@@ -1,7 +1,7 @@
-package service;
+package com.brandonhogan.service;
 
-import model.Customer;
-import repository.CustomerRepository;
+import com.brandonhogan.model.Customer;
+import com.brandonhogan.repository.CustomerRepository;
 
 import java.util.List;
 
