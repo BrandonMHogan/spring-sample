@@ -1,6 +1,6 @@
-package repository;
+package com.brandonhogan.repository;
 
-import model.Customer;
+import com.brandonhogan.model.Customer;
 
 import java.util.List;
 

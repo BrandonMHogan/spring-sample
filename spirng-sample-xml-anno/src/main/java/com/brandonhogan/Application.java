@@ -1,5 +1,7 @@
-import service.CustomerService;
-import service.CustomerServiceImpl;
+package com.brandonhogan;
+
+import com.brandonhogan.service.CustomerService;
+import com.brandonhogan.service.CustomerServiceImpl;
 
 /**
  * Created by brandon on 14/05/17.

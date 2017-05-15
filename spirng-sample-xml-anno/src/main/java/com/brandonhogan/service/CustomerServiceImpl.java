@@ -1,8 +1,8 @@
-package service;
+package com.brandonhogan.service;
 
-import model.Customer;
-import repository.CustomerRepository;
-import repository.HibernateCustomerRepositoryImpl;
+import com.brandonhogan.model.Customer;
+import com.brandonhogan.repository.CustomerRepository;
+import com.brandonhogan.repository.HibernateCustomerRepositoryImpl;
 
 import java.util.List;
 

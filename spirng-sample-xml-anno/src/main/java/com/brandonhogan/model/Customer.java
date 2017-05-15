@@ -1,4 +1,4 @@
-package model;
+package com.brandonhogan.model;
 
 /**
  * Created by brandon on 14/05/17.
