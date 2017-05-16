@@ -7,13 +7,21 @@ import com.brandonhogan.service.CustomerServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 /**
  * Created by bhogan on 2017-05-15.
  */
 @Configuration
 @ComponentScan({"com.brandonhogan"})
+@PropertySource("app.properties")
 public class AppConfig {
+
+    @Bean
+    public static PropertySourcesPlaceholderConfigurer getPropertySourcesPlaceholderConfigurer() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
 
     @Bean(name = "customerService")
     public CustomerService gerCustomerService() {
