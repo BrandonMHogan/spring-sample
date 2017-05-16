@@ -16,7 +16,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     private CustomerRepository customerRepository;
 
-    @Autowired
+    //@Autowired
     public void setCustomerRepository(CustomerRepository customerRepository) {
         System.out.println("Setter injection");
         this.customerRepository = customerRepository;
